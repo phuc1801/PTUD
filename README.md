@@ -1,5 +1,5 @@
-# PTUD
-ĐỀ 1:
+
+#ĐỀ 1:
   Câu 1(0.5 điểm) : Tạo CSDL BaiKiemTraSo3
   Gồm các bảng sau:
   PhimDienAnh(MaPhimDienAnh,TenPhimDienAnh)
@@ -36,7 +36,7 @@
   - Tìm kiếm diễn viên theo mã diễn viên (0.75 điểm)
   - Tìm kiếm diễn viên theo họ tên (0.75 điểm)
   ***NÉN TẤT CẢ BÀI LÀM THÀNH 1 FILE ĐẶT TÊN THEO TÊN VÀ MÃ SINH VIÊN VÍ DỤ: LeQuyetTien_26670.zip, LƯU Ý XÓA THƯ MỤC BIN TRONG PROJECT ĐỂ TRÁNH VIRUS KHI NỘP (KO THEO YÊU CẦU TRỪ 1 ĐIỂM)
-ĐỀ 2
+#ĐỀ 2
   Câu 1(0.5 điểm) : Tạo CSDL BaiKiemTraSo3
   Gồm các bảng sau:
   NgoaiNgu(MaNgoaiNgu,TenNgoaiNgu)
@@ -71,7 +71,7 @@
   - Tìm kiếm nhân viên theo mã nhân viên (0.75 điểm)
   - Tìm kiếm nhân viên theo họ tên (0.75 điểm)
   ***NÉN TẤT CẢ BÀI LÀM THÀNH 1 FILE ĐẶT TÊN THEO TÊN VÀ MÃ SINH VIÊN VÍ DỤ: LeQuyetTien_26670.zip, LƯU Ý XÓA THƯ MỤC BIN TRONG PROJECT ĐỂ TRÁNH VIRUS KHI NỘP (KO THEO YÊU CẦU TRỪ 1 ĐIỂM)
-ĐỀ 3
+#ĐỀ 3
 Câu 1(0.75 điểm) : Tạo CSDL BaiKiemTraSo3
 Gồm các bảng sau:
 BangCap(MaBangCap,TenBangCap)
@@ -109,7 +109,7 @@ Tạo form QuanLyNgoaiNgu cho phép:
 - Tìm kiếm ngoại ngữ theo mã ngoại ngữ (0.75 điểm)
 - Tìm kiếm ngoại ngữ theo tên ngoại ngữ (0.75 điểm)
 ***NÉN TẤT CẢ BÀI LÀM THÀNH 1 FILE ĐẶT TÊN THEO TÊN VÀ MÃ SINH VIÊN VÍ DỤ: LeQuyetTien_26670.zip, LƯU Ý XÓA THƯ MỤC BIN TRONG PROJECT ĐỂ TRÁNH VIRUS KHI NỘP (KO THEO YÊU CẦU TRỪ 1 ĐIỂM)
-ĐỀ 4
+#ĐỀ 4
 Câu 1(0.5 điểm) : Tạo CSDL BaiKiemTraSo3
 Gồm các bảng sau:
 LoaiHang(MaLoaiHang,TenMaLoaiHang)
@@ -149,7 +149,7 @@ Tạo form QuanLyNhaCungCap cho phép:
 - Tìm kiếm nhà cung cấp theo mã nhà cung cấp (0.75 điểm)
 - Tìm kiếm nhà cung cấp theo tên nhà cung cấp (0.75 điểm)
 ***NÉN TẤT CẢ BÀI LÀM THÀNH 1 FILE ĐẶT TÊN THEO TÊN VÀ MÃ SINH VIÊN VÍ DỤ: LeQuyetTien_26670.zip, LƯU Ý XÓA THƯ MỤC BIN TRONG PROJECT ĐỂ TRÁNH VIRUS KHI NỘP (KO THEO YÊU CẦU TRỪ 1 ĐIỂM)
-ĐỀ 5
+#ĐỀ 5
 Câu 1(0.75 điểm) : Tạo CSDL BaiKiemTraSo3
 Gồm các bảng sau:
 Kho(MaKho,TenKho)
@@ -187,7 +187,7 @@ Tạo form QuanLyHangHoa cho phép:
 - Tìm kiếm hàng hóa theo mã hàng hóa (0.75 điểm)
 - Tìm kiếm hàng hóa theo tên hàng hóa (0.75 điểm)
 ***NÉN TẤT CẢ BÀI LÀM THÀNH 1 FILE ĐẶT TÊN THEO TÊN VÀ MÃ SINH VIÊN VÍ DỤ: LeQuyetTien_26670.zip, LƯU Ý XÓA THƯ MỤC BIN TRONG PROJECT ĐỂ TRÁNH VIRUS KHI NỘP (KO THEO YÊU CẦU TRỪ 1 ĐIỂM)
-ĐỀ 6
+#ĐỀ 6
 Câu 1(0.75 điểm) : Tạo CSDL BaiKiemTraSo3
 Gồm các bảng sau:
 ChungChi(MaChungChi,TenChungChi,ThoiHan)
@@ -224,7 +224,7 @@ Tạo form QuanLyChungChi cho phép:
 - Tìm kiếm chứng chỉ theo mã chứng chỉ (0.75 điểm)
 - Tìm kiếm chứng chỉ theo tên chứng chỉ (0.75 điểm)
 ***NÉN TẤT CẢ BÀI LÀM THÀNH 1 FILE ĐẶT TÊN THEO TÊN VÀ MÃ SINH VIÊN VÍ DỤ: LeQuyetTien_26670.zip, LƯU Ý XÓA THƯ MỤC BIN TRONG PROJECT ĐỂ TRÁNH VIRUS KHI NỘP (KO THEO YÊU CẦU TRỪ 1 ĐIỂM)
-ĐỀ 7
+#ĐỀ 7
 Câu 1(0.5 điểm) : Tạo CSDL BaiKiemTraSo3
 Gồm các bảng sau:
 LoaiPhim(MaLoaiPhim,TenMaLoaiPhim)
@@ -262,7 +262,7 @@ Tạo form QuanLyPhimDienAnh cho phép:
 - Tìm kiếm diễn viên theo mã phim điện ảnh (0.75 điểm)
 - Tìm kiếm diễn viên theo tên phim điện ảnh (0.75 điểm)
 ***NÉN TẤT CẢ BÀI LÀM THÀNH 1 FILE ĐẶT TÊN THEO TÊN VÀ MÃ SINH VIÊN VÍ DỤ: LeQuyetTien_26670.zip, LƯU Ý XÓA THƯ MỤC BIN TRONG PROJECT ĐỂ TRÁNH VIRUS KHI NỘP (KO THEO YÊU CẦU TRỪ 1 ĐIỂM)
-ĐỀ 8
+#ĐỀ 8
 Câu 1(0.75 điểm) : Tạo CSDL BaiKiemTraSo3
 Gồm các bảng sau:
 Kho(MaKho,TenKho)
@@ -302,7 +302,7 @@ Tạo form QuanLyKho cho phép:
 - Tìm kiếm kho theo mã kho (0.75 điểm)
 - Tìm kiếm kho theo tên kho (0.75 điểm)
 ***NÉN TẤT CẢ BÀI LÀM THÀNH 1 FILE ĐẶT TÊN THEO TÊN VÀ MÃ SINH VIÊN VÍ DỤ: LeQuyetTien_26670.zip, LƯU Ý XÓA THƯ MỤC BIN TRONG PROJECT ĐỂ TRÁNH VIRUS KHI NỘP (KO THEO YÊU CẦU TRỪ 1 ĐIỂM)
-ĐỀ 9
+#ĐỀ 9
 Câu 1(0.75 điểm) : Tạo CSDL BaiKiemTraSo3
 Gồm các bảng sau:
 ChungChi(MaChungChi,TenChungChi,ThoiHan)
@@ -342,7 +342,7 @@ Tạo form QuanLyNhanVien cho phép:
 - Tìm kiếm nhân viên theo mã nhân viên (0.75 điểm)
 - Tìm kiếm nhân viên theo họ tên (0.75 điểm)
 ***NÉN TẤT CẢ BÀI LÀM THÀNH 1 FILE ĐẶT TÊN THEO TÊN VÀ MÃ SINH VIÊN VÍ DỤ: LeQuyetTien_26670.zip, LƯU Ý XÓA THƯ MỤC BIN TRONG PROJECT ĐỂ TRÁNH VIRUS KHI NỘP (KO THEO YÊU CẦU TRỪ 1 ĐIỂM)
-ĐỀ 10
+#ĐỀ 10
 Câu 1(0.75 điểm) : Tạo CSDL BaiKiemTraSo3
 Gồm các bảng sau:
 BangCap(MaBangCap,TenBangCap)
@@ -381,7 +381,7 @@ Tạo form QuanLyBangCap cho phép:
 - Tìm kiếm bằng cấp theo mã bằng cấp (0.75 điểm)
 - Tìm kiếm bằng cấp theo tên bằng cấp (0.75 điểm)
 ***NÉN TẤT CẢ BÀI LÀM THÀNH 1 FILE ĐẶT TÊN THEO TÊN VÀ MÃ SINH VIÊN VÍ DỤ: LeQuyetTien_26670.zip, LƯU Ý XÓA THƯ MỤC BIN TRONG PROJECT ĐỂ TRÁNH VIRUS KHI NỘP (KO THEO YÊU CẦU TRỪ 1 ĐIỂM)
-ĐỀ 11
+#ĐỀ 11
 Câu 1(0.75 điểm) : Tạo CSDL BaiKiemTraSo3
 Gồm các bảng sau:
 ChungChi(MaChungChi,TenChungChi,ThoiHan)
