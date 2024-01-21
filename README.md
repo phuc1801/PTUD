@@ -1,76 +1,76 @@
 # PTUD
 ĐỀ 1:
-Câu 1(0.5 điểm) : Tạo CSDL BaiKiemTraSo3
-Gồm các bảng sau:
-PhimDienAnh(MaPhimDienAnh,TenPhimDienAnh)
-- MaPhimDienAnh là số nguyên, tự tăng, khóa chính
-- Tên phim điện ảnh tối đa 30 ký tự có dấu, không để trống và là duy nhất
-DienVien(MaDienVien,HoTen,NgaySinh)
-- MaDienVien là số nguyên, tự tăng, khóa chính
-- Họ tên tối đa 30 ký tự có dấu, không để trống
-- Ngày sinh kiểu ngày tháng, yêu cầu tuổi >= 18
-PhimDienAnhDienVien(MaDienVien,MaPhimDienAnh,ThuLao,GhiChu)
-- MaDienVien,MaPhimDienAnh tham chiếu sang bảng diễn viên và bảng phim điện ảnh và là khóa chính
-- Thù lao là 1 số nguyên không âm
-- GhiChu tối đa 100 ký tự có dấu
-Câu 2 (0.5 điểm): Tạo view vChiTietPhimDienAnhDienVien gồm các thông tin sau: Mã diễn viên, họ tên, tên phim điện ảnh, thù lao, ghi chú
-Câu 3 (0.75 điểm): Tạo thủ tục spThemPhimDienAnhDienVien nhận 3 tham số mã diễn viên, tên phim điện ảnh, thù lao và ghi chú
-- Kiểm tra xem mã diễn viên tồn tại không
-- Kiểm tra xem tên phim điện ảnh tồn tại không
-- Kiểm tra xem thù lao có âm không
-- Kiểm tra xem diễn viên này và phim điện ảnh này đã được lưu trữ chưa
-- Nếu tất cả đều ổn thì thêm vào bảng PhimDienAnhDienVien
-Câu 4(0.75 điểm): Tạo hàm TimKiemPhimDienAnh nhận tham số đầu vào là mã phim điện ảnh và tên phim điện ảnh.
-- nếu ko muốn tìm theo mã phim điện ảnh thì đưa mã phim điện ảnh là NULL vào
-- nếu ko muốn tìm theo tên phim điện ảnh thì đưa tên phim điện ảnh là NULL vào (có thể tìm kiếm gần đúng)
-- Trả về danh sách phim điện ảnh thỏa mãn điều kiện
-Câu 5: Tạo project theo tên sinh viên và mã sinh viên ví dụ: LeQuyetTien_26670 (KO THEO YÊU CẦU TRỪ 0.5 ĐIỂM)
-Tạo form QuanLyDienVien cho phép:
-- Hiển thị danh sách diễn viên lên datagridview (0.5 điểm)
-- Hiển thị thông tin diễn viên khi click chọn từng dòng (0.5 điểm)
-- Thêm diễn viên (1 điểm)
-- Sửa diễn viên (1 điểm)
-- Xóa diễn viên (1 điểm)
-- Bắt lỗi khi thêm, sửa, xóa diễn viên (1 điểm)
-- Khi xóa diễn viên sẽ xóa đi các thông tin liên quan bên bảng PhimDienAnhDienVien (1 điểm)
-- Tìm kiếm diễn viên theo mã diễn viên (0.75 điểm)
-- Tìm kiếm diễn viên theo họ tên (0.75 điểm)
-***NÉN TẤT CẢ BÀI LÀM THÀNH 1 FILE ĐẶT TÊN THEO TÊN VÀ MÃ SINH VIÊN VÍ DỤ: LeQuyetTien_26670.zip, LƯU Ý XÓA THƯ MỤC BIN TRONG PROJECT ĐỂ TRÁNH VIRUS KHI NỘP (KO THEO YÊU CẦU TRỪ 1 ĐIỂM)
+  Câu 1(0.5 điểm) : Tạo CSDL BaiKiemTraSo3
+  Gồm các bảng sau:
+  PhimDienAnh(MaPhimDienAnh,TenPhimDienAnh)
+  - MaPhimDienAnh là số nguyên, tự tăng, khóa chính
+  - Tên phim điện ảnh tối đa 30 ký tự có dấu, không để trống và là duy nhất
+  DienVien(MaDienVien,HoTen,NgaySinh)
+  - MaDienVien là số nguyên, tự tăng, khóa chính
+  - Họ tên tối đa 30 ký tự có dấu, không để trống
+  - Ngày sinh kiểu ngày tháng, yêu cầu tuổi >= 18
+  PhimDienAnhDienVien(MaDienVien,MaPhimDienAnh,ThuLao,GhiChu)
+  - MaDienVien,MaPhimDienAnh tham chiếu sang bảng diễn viên và bảng phim điện ảnh và là khóa chính
+  - Thù lao là 1 số nguyên không âm
+  - GhiChu tối đa 100 ký tự có dấu
+  Câu 2 (0.5 điểm): Tạo view vChiTietPhimDienAnhDienVien gồm các thông tin sau: Mã diễn viên, họ tên, tên phim điện ảnh, thù lao, ghi chú
+  Câu 3 (0.75 điểm): Tạo thủ tục spThemPhimDienAnhDienVien nhận 3 tham số mã diễn viên, tên phim điện ảnh, thù lao và ghi chú
+  - Kiểm tra xem mã diễn viên tồn tại không
+  - Kiểm tra xem tên phim điện ảnh tồn tại không
+  - Kiểm tra xem thù lao có âm không
+  - Kiểm tra xem diễn viên này và phim điện ảnh này đã được lưu trữ chưa
+  - Nếu tất cả đều ổn thì thêm vào bảng PhimDienAnhDienVien
+  Câu 4(0.75 điểm): Tạo hàm TimKiemPhimDienAnh nhận tham số đầu vào là mã phim điện ảnh và tên phim điện ảnh.
+  - nếu ko muốn tìm theo mã phim điện ảnh thì đưa mã phim điện ảnh là NULL vào
+  - nếu ko muốn tìm theo tên phim điện ảnh thì đưa tên phim điện ảnh là NULL vào (có thể tìm kiếm gần đúng)
+  - Trả về danh sách phim điện ảnh thỏa mãn điều kiện
+  Câu 5: Tạo project theo tên sinh viên và mã sinh viên ví dụ: LeQuyetTien_26670 (KO THEO YÊU CẦU TRỪ 0.5 ĐIỂM)
+  Tạo form QuanLyDienVien cho phép:
+  - Hiển thị danh sách diễn viên lên datagridview (0.5 điểm)
+  - Hiển thị thông tin diễn viên khi click chọn từng dòng (0.5 điểm)
+  - Thêm diễn viên (1 điểm)
+  - Sửa diễn viên (1 điểm)
+  - Xóa diễn viên (1 điểm)
+  - Bắt lỗi khi thêm, sửa, xóa diễn viên (1 điểm)
+  - Khi xóa diễn viên sẽ xóa đi các thông tin liên quan bên bảng PhimDienAnhDienVien (1 điểm)
+  - Tìm kiếm diễn viên theo mã diễn viên (0.75 điểm)
+  - Tìm kiếm diễn viên theo họ tên (0.75 điểm)
+  ***NÉN TẤT CẢ BÀI LÀM THÀNH 1 FILE ĐẶT TÊN THEO TÊN VÀ MÃ SINH VIÊN VÍ DỤ: LeQuyetTien_26670.zip, LƯU Ý XÓA THƯ MỤC BIN TRONG PROJECT ĐỂ TRÁNH VIRUS KHI NỘP (KO THEO YÊU CẦU TRỪ 1 ĐIỂM)
 ĐỀ 2
-Câu 1(0.5 điểm) : Tạo CSDL BaiKiemTraSo3
-Gồm các bảng sau:
-NgoaiNgu(MaNgoaiNgu,TenNgoaiNgu)
-- MaNgoaiNgu là số nguyên, tự tăng, khóa chính
-- Tên ngoại ngữ tối đa 30 ký tự có dấu, không để trống và là duy nhất
-NhanVien(MaNhanVien,HoTen,NgaySinh)
-- MaNhanVien là số nguyên, tự tăng, khóa chính
-- Họ tên tối đa 30 ký tự có dấu, không để trống
-- Ngày sinh kiểu ngày tháng, yêu cầu tuổi >= 18
-NgoaiNguNhanVien(MaNhanVien,MaNgoaiNgu,GhiChu)
-- MaNhanVien,MaNgoaiNgu tham chiếu sang bảng nhân viên và bảng ngoại ngữ và là khóa chính
-- GhiChu tối đa 100 ký tự có dấu
-Câu 2 (0.5 điểm): Tạo view vChiTietNgoaiNguNhanVien gồm các thông tin sau: Mã nhân viên, họ tên, tên ngoại ngữ, ghi chú
-Câu 3 (0.75 điểm): Tạo thủ tục spThemNgoaiNguNhanVien nhận 3 tham số mã nhân viên, tên ngoại ngữ và ghi chú
-- Kiểm tra xem mã nhân viên tồn tại không
-- Kiểm tra xem tên ngoại ngữ tồn tại không
-- Kiểm tra xem nhân viên này và ngoại ngữ này đã được lưu trữ chưa
-- Nếu tất cả đều ổn thì thêm vào bảng NgoaiNguNhanVien
-Câu 4(0.75 điểm): Tạo hàm TimKiemNgoaiNgu nhận tham số đầu vào là mã ngoại ngữ và tên ngoại ngữ.
-- nếu ko muốn tìm theo mã ngoại ngữ thì đưa mã ngoại ngữ là NULL vào
-- nếu ko muốn tìm theo tên ngoại ngữ thì đưa tên ngoại ngữ là NULL vào (có thể tìm kiếm gần đúng)
-- Trả về danh sách ngoại ngữ thỏa mãn điều kiện
-Câu 5: Tạo project theo tên sinh viên và mã sinh viên ví dụ: LeQuyetTien_26670 (KO THEO YÊU CẦU TRỪ 0.5 ĐIỂM)
-Tạo form QuanLyNhanVien cho phép:
-- Hiển thị danh sách nhân viên lên datagridview (0.5 điểm)
-- Hiển thị thông tin nhân viên khi click chọn từng dòng (0.5 điểm)
-- Thêm nhân viên (1 điểm)
-- Sửa nhân viên (1 điểm)
-- Xóa nhân viên (1 điểm)
-- Bắt lỗi khi thêm, sửa, xóa nhân viên (1 điểm)
-- Khi xóa nhân viên sẽ xóa đi các thông tin liên quan bên bảng NgoaiNguNhanVien (1 điểm)
-- Tìm kiếm nhân viên theo mã nhân viên (0.75 điểm)
-- Tìm kiếm nhân viên theo họ tên (0.75 điểm)
-***NÉN TẤT CẢ BÀI LÀM THÀNH 1 FILE ĐẶT TÊN THEO TÊN VÀ MÃ SINH VIÊN VÍ DỤ: LeQuyetTien_26670.zip, LƯU Ý XÓA THƯ MỤC BIN TRONG PROJECT ĐỂ TRÁNH VIRUS KHI NỘP (KO THEO YÊU CẦU TRỪ 1 ĐIỂM)
+  Câu 1(0.5 điểm) : Tạo CSDL BaiKiemTraSo3
+  Gồm các bảng sau:
+  NgoaiNgu(MaNgoaiNgu,TenNgoaiNgu)
+  - MaNgoaiNgu là số nguyên, tự tăng, khóa chính
+  - Tên ngoại ngữ tối đa 30 ký tự có dấu, không để trống và là duy nhất
+  NhanVien(MaNhanVien,HoTen,NgaySinh)
+  - MaNhanVien là số nguyên, tự tăng, khóa chính
+  - Họ tên tối đa 30 ký tự có dấu, không để trống
+  - Ngày sinh kiểu ngày tháng, yêu cầu tuổi >= 18
+  NgoaiNguNhanVien(MaNhanVien,MaNgoaiNgu,GhiChu)
+  - MaNhanVien,MaNgoaiNgu tham chiếu sang bảng nhân viên và bảng ngoại ngữ và là khóa chính
+  - GhiChu tối đa 100 ký tự có dấu
+  Câu 2 (0.5 điểm): Tạo view vChiTietNgoaiNguNhanVien gồm các thông tin sau: Mã nhân viên, họ tên, tên ngoại ngữ, ghi chú
+  Câu 3 (0.75 điểm): Tạo thủ tục spThemNgoaiNguNhanVien nhận 3 tham số mã nhân viên, tên ngoại ngữ và ghi chú
+  - Kiểm tra xem mã nhân viên tồn tại không
+  - Kiểm tra xem tên ngoại ngữ tồn tại không
+  - Kiểm tra xem nhân viên này và ngoại ngữ này đã được lưu trữ chưa
+  - Nếu tất cả đều ổn thì thêm vào bảng NgoaiNguNhanVien
+  Câu 4(0.75 điểm): Tạo hàm TimKiemNgoaiNgu nhận tham số đầu vào là mã ngoại ngữ và tên ngoại ngữ.
+  - nếu ko muốn tìm theo mã ngoại ngữ thì đưa mã ngoại ngữ là NULL vào
+  - nếu ko muốn tìm theo tên ngoại ngữ thì đưa tên ngoại ngữ là NULL vào (có thể tìm kiếm gần đúng)
+  - Trả về danh sách ngoại ngữ thỏa mãn điều kiện
+  Câu 5: Tạo project theo tên sinh viên và mã sinh viên ví dụ: LeQuyetTien_26670 (KO THEO YÊU CẦU TRỪ 0.5 ĐIỂM)
+  Tạo form QuanLyNhanVien cho phép:
+  - Hiển thị danh sách nhân viên lên datagridview (0.5 điểm)
+  - Hiển thị thông tin nhân viên khi click chọn từng dòng (0.5 điểm)
+  - Thêm nhân viên (1 điểm)
+  - Sửa nhân viên (1 điểm)
+  - Xóa nhân viên (1 điểm)
+  - Bắt lỗi khi thêm, sửa, xóa nhân viên (1 điểm)
+  - Khi xóa nhân viên sẽ xóa đi các thông tin liên quan bên bảng NgoaiNguNhanVien (1 điểm)
+  - Tìm kiếm nhân viên theo mã nhân viên (0.75 điểm)
+  - Tìm kiếm nhân viên theo họ tên (0.75 điểm)
+  ***NÉN TẤT CẢ BÀI LÀM THÀNH 1 FILE ĐẶT TÊN THEO TÊN VÀ MÃ SINH VIÊN VÍ DỤ: LeQuyetTien_26670.zip, LƯU Ý XÓA THƯ MỤC BIN TRONG PROJECT ĐỂ TRÁNH VIRUS KHI NỘP (KO THEO YÊU CẦU TRỪ 1 ĐIỂM)
 ĐỀ 3
 Câu 1(0.75 điểm) : Tạo CSDL BaiKiemTraSo3
 Gồm các bảng sau:
