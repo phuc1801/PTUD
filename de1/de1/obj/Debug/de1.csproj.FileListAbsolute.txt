@@ -1,0 +1,10 @@
+E:\.net\de1\de1\bin\Debug\de1.exe.config
+E:\.net\de1\de1\bin\Debug\de1.exe
+E:\.net\de1\de1\bin\Debug\de1.pdb
+E:\.net\de1\de1\obj\Debug\de1.csproj.AssemblyReference.cache
+E:\.net\de1\de1\obj\Debug\de1.Form1.resources
+E:\.net\de1\de1\obj\Debug\de1.Properties.Resources.resources
+E:\.net\de1\de1\obj\Debug\de1.csproj.GenerateResource.cache
+E:\.net\de1\de1\obj\Debug\de1.csproj.CoreCompileInputs.cache
+E:\.net\de1\de1\obj\Debug\de1.exe
+E:\.net\de1\de1\obj\Debug\de1.pdb
