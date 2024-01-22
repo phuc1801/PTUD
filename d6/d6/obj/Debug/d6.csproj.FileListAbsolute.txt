@@ -1,0 +1,10 @@
+C:\Users\nguye\OneDrive\Desktop\PTUD\d6\d6\bin\Debug\d6.exe.config
+C:\Users\nguye\OneDrive\Desktop\PTUD\d6\d6\bin\Debug\d6.exe
+C:\Users\nguye\OneDrive\Desktop\PTUD\d6\d6\bin\Debug\d6.pdb
+C:\Users\nguye\OneDrive\Desktop\PTUD\d6\d6\obj\Debug\d6.csproj.AssemblyReference.cache
+C:\Users\nguye\OneDrive\Desktop\PTUD\d6\d6\obj\Debug\d6.Form1.resources
+C:\Users\nguye\OneDrive\Desktop\PTUD\d6\d6\obj\Debug\d6.Properties.Resources.resources
+C:\Users\nguye\OneDrive\Desktop\PTUD\d6\d6\obj\Debug\d6.csproj.GenerateResource.cache
+C:\Users\nguye\OneDrive\Desktop\PTUD\d6\d6\obj\Debug\d6.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\Desktop\PTUD\d6\d6\obj\Debug\d6.exe
+C:\Users\nguye\OneDrive\Desktop\PTUD\d6\d6\obj\Debug\d6.pdb
